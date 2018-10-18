@@ -1,5 +1,5 @@
 .data
-    myCharacter: .byte "K"
+    myCharacter: .byte 'K'
 .txt
     li $v0, 4
     la $a0, myCharacter
