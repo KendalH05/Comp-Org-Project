@@ -3,3 +3,8 @@
     li $v0, 11
     la $a0, 75        #K (75)
     syscall
+    addi $a0, $a0, 26 #e (101)
+    syscall
+    addi $a0, $a0, 9 #n (110)
+    syscall
+    sub $a0, $a0, 10 #d (100) 
