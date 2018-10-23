@@ -49,6 +49,9 @@ NL: .asciiz "\n"
     sub $a0, $a0, 3 #a (97)
     syscall
     addi $a0, $a0, 11 #l (108)
+    syscall
+    li $v0, 10
+    syscall
     
    
     
