@@ -25,6 +25,11 @@ NL: .asciiz "\n"
     li $v0, 4
     la $a0, NL  #Newline
     syscall
+    li $v0, 11
+    la $a0, 72 #H (72)
+    syscall
+    addi $a0, $a0 25 #a(97)
+    syscall
     la $a0, 75        #K (75)
     syscall
     addi $a0, $a0, 26 #e (101)
