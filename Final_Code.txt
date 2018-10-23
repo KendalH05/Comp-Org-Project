@@ -12,6 +12,11 @@ NL: .asciiz "\n"
     syscall
     addi $a0, $a0 6 #8
     syscall
+    sub $a0, $a0 8  #0
+    syscall
+    addi $a0, $a0 8 #8
+    syscall
+    sub $a0, $a0 3  #5
 
     la $a0, 75        #K (75)
     syscall
